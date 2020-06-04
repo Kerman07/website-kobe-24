@@ -202,9 +202,8 @@ html, body {
 }
 
 .about-page-img-3 {
-	display: block;
+	max-width: 100%;
 	height: auto;
-	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
