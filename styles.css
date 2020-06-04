@@ -52,7 +52,10 @@ html, body {
 
 .main-header-1 {
 	background-color: rgba(0, 0, 0, 0.2);
-	background-image: url("img/background.jpg");
+	background-image: url('img/background.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%, auto;
 	background-blend-mode: multiply;
 	background-size: cover height;
 }
@@ -60,7 +63,7 @@ html, body {
 .kobe {
 	text-align: left;
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.15em;
 	font-family: Kobe;
 	font-weight: normal;
 }
@@ -83,6 +86,7 @@ html, body {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 1.5em;
+	padding-bottom: 50px;
 }
 
 .section-header {
@@ -94,8 +98,8 @@ html, body {
 
 .about-page-img {
 	float: left;
-	height: 230px;
-	width: 350px;
+	height: auto;
+	max-width: 300px;
 	margin-right: 30px;
 	margin-top: 20px;
 	margin-bottom: 15px;
@@ -171,6 +175,8 @@ html, body {
 }
 
 .photo-container img {
+	max-width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -187,8 +193,8 @@ html, body {
 
 .about-page-img-2 {
 	float: right;
-	height: 230px;
-	width: 350px;
+	height: auto;
+	max-width: 300px;
 	margin-left: 30px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -196,13 +202,19 @@ html, body {
 }
 
 .about-page-img-3 {
-	height: 400px;
-	width: 800px;
-	margin-left: 30px;
-	margin-bottom: 50px;
+	display: block;
+	height: auto;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 15px;
 }
 
 .photos img {
 	border-radius: 15px;
+}
+
+.stats {
+	border-radius: 0px;
+	padding-bottom: 50px;
 }
